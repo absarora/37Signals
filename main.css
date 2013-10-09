@@ -37,8 +37,12 @@ html,body{
 #navbar a:link{
 	text-decoration: none;
 }
-span{
+li span{
 	color: #427FBD;
+}
+h1 span{
+	color: #427FBD;
+	text-decoration: underline;
 }
 #navbar a:hover{
 	color: #427FBD;
@@ -70,14 +74,56 @@ span{
 .heading{
 	font-family: CrimsonSemibold, Times New Roman, Georgia, serif;
 }
-h1{
+#head{
 	font-size: 50px;
 	font-weight: 505;
 	text-align: center;
 	margin: 10px auto 20px auto;
 }
-h5{
-	font-size: 20px;
+#basecamp{
+	display: none;
+	font-size: 41px;
+	font-weight: 505;
+	text-align: center;
+	margin: 10px auto 20px auto;
+}
+#highrise{
+	display: none;
+	font-size: 41px;
+	font-weight: 505;
+	text-align: center;
+	margin: 10px auto 20px auto;
+}
+#campfire{
+	display: none;
+	font-size: 41px;
+	font-weight: 505;
+	text-align: center;
+	margin: 10px auto 20px auto;
+}
+#p1{
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	margin: 10px auto 10px auto;
+}
+#p2{
+	display: none;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	margin: 10px auto 10px auto;
+}
+#p3{
+	display: none;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	margin: 10px auto 10px auto;
+}
+#p4{
+	display: none;
+	font-size: 14px;
 	font-weight: 500;
 	text-align: center;
 	margin: 10px auto 10px auto;
@@ -152,8 +198,8 @@ sup{
 #arrow1, #arrow2{
 	position: absolute;
 	display: none;
-	margin-left: 50px;
-	margin-top: -60px;
+	margin-left: 45px;
+	margin-top: -50px;
 }
 #arrow3{
 	position: absolute;
